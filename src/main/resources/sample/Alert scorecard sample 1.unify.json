@@ -1,0 +1,124 @@
+{
+  "isUnifyTemplate": true,
+  "reportName": "Alert scorecard sample 1_Sheet1",
+  "description": "",
+  "workspaceId": "26d985167101e3e8:5d2ba75:1797b167085:-2d77",
+  "modelId": "39306",
+  "asymmetric": true,
+  "async": true,
+  "progressiveFilter": {
+    "progressiveDimensions": []
+  },
+  "metadata": {
+    "margin": 0,
+    "background": {
+      "color": "",
+      "imageURL": "",
+      "opacity": 100
+    }
+  },
+  "tags": [],
+  "businessIssues": "",
+  "allowLayoutChange": false,
+  "paginationInfo": {
+    "currentRowPageNum": 1,
+    "currentColPageNum": 1
+  },
+  "lastAction": "pagination",
+  "gridLayout": {
+    "row": [
+      {
+        "name": "Product",
+        "members": [
+          {
+            "isSelected": true,
+            "level": "Product",
+            "fullPath": "Product.All Pepsico Products by Company",
+            "name": "All Pepsico Products by Company",
+            "functionName": "descendantsAtLevel:PEP COMPANY5",
+            "timeAggregate": null
+          }
+        ],
+        "attributes": [],
+        "isTotal": false,
+        "isAllOthers": false,
+        "isEditable": true,
+        "isVisible": true,
+        "isOptional": false,
+        "userAlias": "Product",
+        "systemAlias": "Product",
+        "isLocked": false
+      }
+    ],
+    "column": [
+      {
+        "name": "Measures",
+        "members": [
+          {
+            "isSelected": true,
+            "level": "OSA Scorecard : FOLDER",
+            "type": "member",
+            "fullPath": "Measures.All Measures : FOLDER.OSA Scorecard : FOLDER.Recaptured Sales Amount",
+            "name": "Recaptured Sales Amount",
+            "timeAggregate": null
+          },
+          {
+            "isSelected": true,
+            "level": "OSA Scorecard : FOLDER",
+            "type": "member",
+            "fullPath": "Measures.All Measures : FOLDER.OSA Scorecard : FOLDER.Total Alerts Issued",
+            "name": "Total Alerts Issued",
+            "timeAggregate": null
+          }
+        ],
+        "attributes": [],
+        "isEditable": true,
+        "isVisible": true,
+        "isOptional": false,
+        "userAlias": "Measure",
+        "systemAlias": "Measure",
+        "isLocked": false
+      }
+    ],
+    "filter": [],
+    "other": []
+  },
+  "gridVisible": true,
+  "chartVisible": false,
+  "reportActions": [],
+  "visualizerConfig": {
+    "gridOptions": {
+      "columnTitle": true,
+      "rowTitle": true,
+      "expandCollapse": true,
+      "displayBanding": false,
+      "indent": "true",
+      "rowIndent": "2",
+      "rowTitleVerticalAlign": "center",
+      "generationStyles": "none",
+      "missingRows": true,
+      "missingColumns": false,
+      "preserveHierarchy": true,
+      "zeroes": true,
+      "errors": true,
+      "showAttributesafterMeasures": false,
+      "mergedDimensionsOnColumn": [],
+      "mergedDimensionsOnRow": [],
+      "textExpression": "",
+      "text": "",
+      "fontColor": "#000",
+      "fontType": "proxima-nova",
+      "fontSize": 14,
+      "disableGridActions": false,
+      "outerBorderWidth": 0,
+      "headerBorder": true,
+      "allowIndexing": false,
+      "applyMemberColorToForeGround": false
+    },
+    "visualizerLayout": "OneCellTemplate",
+    "visualizers": []
+  },
+  "preferences": {
+    "fitToScreen": false
+  }
+}
